@@ -1,7 +1,17 @@
+.copy {
+    display: none;
+}
+
 .switcher__box {
     width: 500px;
     height: 350px;
     border-radius: 16px;
+
+    &:hover {
+        .copy {
+            display: block;
+        }
+    }
 }
 
 .title {

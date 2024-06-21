@@ -26,7 +26,9 @@ const SwitcherBox = () => {
       style={{
         backgroundColor: `rgba(${state.red}, ${state.green}, ${state.blue}, ${state.alpha}%)`,
       }}
-    ></div>
+    >
+      <p className="copy">Click to copy</p>
+    </div>
   );
 };
 
