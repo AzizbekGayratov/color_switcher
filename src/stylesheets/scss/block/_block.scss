@@ -1,0 +1,102 @@
+.switcher__box {
+    width: 500px;
+    height: 350px;
+    border-radius: 16px;
+}
+
+.title {
+    font-family: $pacifico;
+    font-size: 90px;
+    color: #000;
+    margin-bottom: 32px;
+}
+
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+
+.btn__text {
+    font-family: $roboto;
+    font-size: 24px;
+    font-weight: 800;
+    color: #000;
+}
+
+#red_btn {
+    p {
+        color: red;
+    }
+}
+
+#green_btn {
+    p {
+        color: green;
+    }
+}
+
+#blue_btn {
+    p {
+        color: blue;
+    }
+}
+
+#alpha_btn {
+    p {
+        color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+.btn__box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.btn__block {
+    button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 24px;
+        padding: 0 16px;
+    }
+}
+
+.btn_nav {
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+
+.color__range {
+    flex-grow: 1;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#title_red {
+    color: red;
+}
+
+#title_green {
+    color: green;
+}
+
+#title_blue {
+    color: blue;
+}
+
+#title_alpha {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.color__range {
+    font-family: $pacifico;
+}
