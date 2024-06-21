@@ -70,8 +70,8 @@ body {
   border-radius: 16px;
 }
 
-.switcher__box:hover .copy {
-  display: block;
+.copy {
+  color: #fff;
 }
 
 .title {
